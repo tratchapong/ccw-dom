@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#phone-form > *  {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#err-message {
+  color: red;
+}

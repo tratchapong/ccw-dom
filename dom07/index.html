@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM07 : Form</title>
+</head>
+
+<body>
+  <h1>DOM07 : Form</h1>
+  <hr>
+
+  <form id='userform'>
+    <label>Username
+      <input id='inp1'>
+    </label><br><br>
+    <label>Email
+      <input type='email' id='inp2'>
+    </label><br><br>
+    <!-- radio box -->
+    <label>Gender : </label>
+    <label>
+      <input type='radio' name='gender' value='male'>Male
+    </label>
+    <label>
+      <input type='radio' name='gender' value='female'>Female
+    </label>
+    <label>
+      <input type='radio' name='gender' value='others'>Others
+    </label><br><br>
+    <label for="favcolor">Favarite Color :</label>
+    <select id='favcolor'>
+      <option selected disabled>Please select..</option>
+      <option>Red</option>
+      <option>Green</option>
+      <option>Blue</option>
+    </select><br><br>
+    <label>
+      <input type='checkbox' id='inp3'>Subscribe
+    </label>
+
+
+
+
+
+
+    <br><br>
+    <button>Submit</button>
+  </form>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>

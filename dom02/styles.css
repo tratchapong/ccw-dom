@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.text-red {
+  color: red;
+  background-color: lime;
+}
+
+.text-blue {
+  color : blue;
+  background-color: yellow;
+}
+
+.clear-color {
+  color: initial;
+  background-color: initial;
+}
+
+.border {
+  border : 1px solid coral;
+}
