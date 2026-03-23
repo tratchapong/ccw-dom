@@ -1,0 +1,53 @@
+   body {
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px; 
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+       
+        label {
+            font-family: "Times New Roman", serif;
+            font-size: 24px;
+            font-weight: 500;
+            color: #000;
+        }
+
+      
+        select {
+            appearance: none; 
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 280px;
+            padding: 10px 15px;
+            font-size: 22px;
+            border: 1px solid #767676;
+            background-color: #fff;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            background-size: 25px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        select:focus {
+            border-color: #000;
+        }
