@@ -3,6 +3,11 @@ const skillArea = document.querySelector('#skill')
 let prevSkill = null
 
 function hdlClick(evt) {
+
+    if(evt.target.nodeName ==='UL') {
+    return
+  }
+
   // console.log(ul.children)
   // for(let el of ul.children) {
   //   el.style.backgroundColor = ''
@@ -12,9 +17,7 @@ function hdlClick(evt) {
     prevSkill.style.backgroundColor = ''
   }
 
-  if(evt.target.nodeName ==='UL') {
-    return
-  }
+
   
   // console.dir(evt.target)
   console.log(evt.target.outerHTML)
